@@ -13,8 +13,8 @@ from storage import Storage
 #  إعدادات عامة
 # ============================================================
 load_dotenv()
-TOKEN = os.getenv("DISCORD_TOKEN")
-GUILD_ID = os.getenv("GUILD_ID")  # اختياري: لمزامنة سريعة أثناء التجربة
+TOKEN = os.getenv("MTUwNTY4NTY0MjQ5ODI4MTU5Mg.G3lMfR.Ys9Ur7Pz-FZ3csh1k5UR5bMZuBA1oY7zzJGnTc")
+GUILD_ID = os.getenv("1505691946155245590")  # اختياري: لمزامنة سريعة أثناء التجربة
 TZ = ZoneInfo("Asia/Riyadh")
 DATA_FILE = os.path.join(os.path.dirname(__file__), "data.json")
 
