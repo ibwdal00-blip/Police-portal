@@ -297,7 +297,7 @@ async def daily_reports():
     today = now.date()
 
     # الأربعاء الساعة 11:00: أرسل الأسبوعي أولًا، ثم اليومي.
-    if now.hour == 11 and now.minute == 0:
+    if now.hour == 23 and now.minute == 0:
         if now.weekday() == 2 and last_weekly_date != today:
             await send_weekly_report()
             reset_weekly()
